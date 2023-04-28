@@ -1,0 +1,28 @@
+CRIAR TABELA restaurante(
+  cnpj_pk VARCHAR(14) NÃO NULO,
+  nome VACHAR(50) NÃO NULO,
+  indentificador_usuario_pk VARCHAR(11) não NULL.
+  telefone VARCHAR(11) NÃO NULO,
+  PRIMARY KEY (cnpj_pk), PRIMARY KEY(indentificador_usuario_pk)
+  )
+  
+  CREATE TABLE funcionario(
+  uniforme VARCHAR(20),
+  cozinheiras VARCHAR(20),
+  usuario_fk VARCHAR(11) NÃO NULO
+    FOREIGN KEY (usuario_fk) REFERÊNCIAS (indentificador_usuario_fk)
+  )
+  
+  CRIAR tabela armazem(
+    comidas(40),
+    alimentos(40),
+    )
+    
+    CRIAR TABELA clientes(
+      cpf_pk VARCHAR(11),
+      usuario_fk VARCHAR(11) NÃO NULO,
+      idade VARCHAR(3),
+      nome VARCHAR(50) NÃO NULO,
+      cor VARCHAR(15),
+      CHAVE PRIMÁRIA (cpf_pk) ESTRANGEIRO (usuario_fk) REFERÊNCIAS restaurante(indentificador_usuario_pk)
+)  

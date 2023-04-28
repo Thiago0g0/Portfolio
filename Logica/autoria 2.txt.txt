@@ -1,0 +1,41 @@
+{
+   
+inclua biblioteca Matematica --> mat
+    funcao inicio()
+//Função que inicializa o meu programa
+    {
+        //escreveNome()//Execução da função escreveNome()
+        //media()
+        bhaskara()
+}
+    funcao media()
+    {
+        inteiro n1, n2, n3
+        real resultado
+        escreva("Digite o primeiro número\n")
+        leia(n1)
+        escreva("Digite o segundo número\n")
+        leia(n2)
+        escreva("Digite o terceiro número\n")
+        leia(n3)
+        resultado = (n1+n2+n3) / 3.0
+        escreva("A média é "+resultado+"\n")
+    }
+    funcao bhaskara()    
+    {
+        inteiro a, b, c
+        real delta, x1, x2
+        escreva("Digite o valor de a\n")
+        leia(a)
+        escreva("Digite o valor de b\n")
+        leia(b)
+        escreva("Digite o valor de c\n")
+        leia(c)
+        escreva("Digite o valor de c\n")
+        leia(d)
+        delta = b*b - 4*a*d
+        x1 = (-b + mat.raiz(delta, 2.0))/2*a
+        x2 = (-b - mat.raiz(delta, 2.0))/2*a
+        escreva("x1 = "+x1+"\nx2 = "+x2+"\n")
+    }
+}

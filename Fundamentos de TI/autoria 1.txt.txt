@@ -1,0 +1,5 @@
+git remote remove origin
+git add
+git remote add originhttps://github.com/Thiago0g0/Portfolio@TOKEN LIkin do repositorio . git
+git commit -m "portfolio"
+git push --set-upstream origin main

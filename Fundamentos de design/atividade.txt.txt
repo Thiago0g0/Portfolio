@@ -1,0 +1,40 @@
+CREATE TABLE cadastro(
+  nome VARCHAR(50) NOT NULL,
+  CNPJ_PK VARCHAR(18) NOT NULL,
+  telefone VARCHAR(9) NOt NULL,
+  indentificador_usuarios_FK VARCHAR(15) NOT NULL,
+  email VARCHAR(30) not NULL,
+  PRIMARY key(CNPJ_PK),
+  FOREIGN key(indentificador_usuarios_fk)
+  )
+  
+  CREATE TABLE usuario(
+    agendamentos VARCHAR(15),
+    avisos VARCHAR(30),
+    vacinas VARCHAR(10),
+    medicamentos(20),
+    indentificador_pk VARCHAR(18) not NULL,
+    dados_pessoais_fk VARCHAR(15) NOT NULL,
+    PRIMARY key(indentificador_pk),
+    FOREIGN KEY(dados_pessoais_fk)
+    )
+    
+    CREATE TABLE suporte(
+      auxiliar(50),
+      usuarios_pk VARCHAR(15) not NULL,
+      dados_pessoais_FK VARCHAR(15) not NULL,
+      PRIMARY KEY(usuarios_pk),
+      FOREIGN key(dados_pessoais_fk)
+      )
+      
+      CREATE TABLE servicos(
+        oftalmo VARCHAR(30),
+        check_up(30),
+        tratamento_casual(30),
+        tratamento_cirurgico(30),
+        medicamentos(30),
+        indentificador_usuarios_pk VARCHAR(15) NOT NULL,
+        indentificador_fk VARCHAR(18) NOT NULL,
+        PRIMARY KEY(indentificador_de_usuarios_pk) REFERENCES cadastro(indentificador_usuarios_fk)
+        FOREIGN KEY(indentificador_de_usuarios_fk)
+        )

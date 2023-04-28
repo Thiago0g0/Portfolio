@@ -1,0 +1,19 @@
+- Disponibilidade; usado para descrever o período de tempo em que um serviço está disponível, bem como o tempo exigido por um sistema para responder a uma solicitação feita por um usuário.
+
+- Integridade;Identificar se as informações não sofreram alterações durante o seu processamento, pois todos documentos precisam ser preservados como foram criados.
+
+- Confidencialidade; é uma tecnologia de computação que isola os dados durante o seu processamento por meio de criptografia.
+
+- Autenticidade;garante a veracidade da autoria da informação, porém, não garante a veracidade do conteúdo da informação.
+
+
+- O que é um Sistema Operacional?
+É um software, ou um conjunto de softwares, que tem como papel gerenciar e administrar todos os recursos presentes em um sistema. 
+
+- Quais são os três objetivos principais?
+defina-os.
+Interpretar os comandos do usuário; controlar os periféricos (teclado, vídeo, discos, impressora, mouse, plotter, etc) e organizar arquivos em disco.
+
+- O que são Periféricos e componentes?
+Dispositivos instalados junto ao computador, cuja função é auxiliar na comunicação homem/máquina.
+

@@ -1,0 +1,10 @@
+sudo adduser nomedeusuario
+sudo addgroup nomedogrupo
+sudo usermod -l novologin login
+sudo usermod -c “nome completo, telefone”
+sudo passwd login
+sudo groupmod -n novogrupo grupo
+sudo deluser login
+sudo delgroup grupo
+sudo deluser login grupo
+sudo delgroup login grupo

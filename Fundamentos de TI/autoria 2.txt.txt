@@ -1,0 +1,8 @@
+cd Desktop/
+cd portfolio/
+add atividade 1 
+add atividade 2
+add autoria 1
+add autoria 2
+git commit -m "portfolio"
+git push --set-upstream origin main
