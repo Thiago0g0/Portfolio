@@ -1,0 +1,70 @@
+CREATE TABLE dados_oficina(
+  endereco VARCHAR(100) NOt NULL,
+  nome_user VARCHAR(100) NOT NULL,
+  telefone VARCAHR(100) NOT NULL,
+  id_user VARCHAR(19) NOT NULL,
+  idade_user VARCHAR(3) NOT NULL,
+  email_user VARCHAR(100) NOT NULL,
+  id_cliente_pecas_carro_modelo_oleo_sache VARCHAR(300) NOT NULL
+  )
+  
+  CREATE TABLE oficina(
+    endereco_fk VARCHAR(100) NOT NULL,
+    nome_fk (100) not NULL,
+    telefone_fk VARCHAR(11) not NULL,
+    FOREIGN KEY (endereco_fk),
+    FOREIGN KEY (nome-fk),
+    FOREIGN KEY (telefone_fk)
+    )
+    
+    CREATE TABLE funcionarios(
+      nome_fk (100) NOT NULL,
+      telefone_fk VARCHAR(11) NOT NULL,
+      id_user VARCHAR(19) NOT NULL,
+      data_nascimento VARCHAR(8) NOT NULL,
+      idade_user VARCHAR(19) not NULL,
+      endereco_user_fk VARCHAR(100) not NULL,
+      email_user_fk VARCHAR(100) not NULL,
+      FOREIGN KEY (nome_fk),
+      FOREIGN KEY (telefone_fk),
+      FOREIGN KEY (endereco_user_fk),
+      FOREIGN KEY (email_user_fk)
+      )
+      
+      CREATE TABLE clientes(
+        cliente_carro(30),
+        cliente_modelo_carro(30),
+        id_sache_carro VARCHAR(30)
+        )
+        
+        CREATE TABLE estoque_pecas(
+          id_pecas VARCHAR(100),
+          id_rodas VARCHAR(100),
+          id_oleo VARCHAR(100),
+          id_ferramentas VARCHAR(100)
+          )
+          
+          INSERT INFO dados_oficina	(endereco, nome, telefone, id_user, idade, email, endereco_user)
+          ('Rua dos camaroes dos mares, 321','oficina do pintcher', '(00)12345-6789','124ZXoempd!021DFAaf','57 anos', 'oficinaDpintcher321@gmail.com','rua do empanado, 32')
+          
+          INSERT info oficina (endereco, nome, telefone)
+          ('rua da flores amarelas', 'ficina do pintcher','(00)12345-6789')
+          
+          INSERT INFO funcionarios (nome, telefone, id_user, data_nascimento, idade, endereco_user, email_user)
+          ('Pedro da Cruz','(11)2233-4466', 'Znk10ds521lSmqAp3', '19/4/1995','28 anos','rua jacare dos fortes, 94', 'pedroccruz0419@gmail.com')
+          
+          insert info clientes (cliente_carro, cliente_modelo_carro, id_sache_carro)
+          ('golf', 'golf MK3', '321mDlae0031ZlildDOPaz1450MKdz')
+          
+          insert INFO estoque_pecas (id_pecas, id_rodas, id_oleo, id_ferramentas)
+          ('31sVastghlo0321BCzzjueFGAJKF1239047561Mndkitsanckle01251ZZaekleottCidelda41qdwyfHIlPMXF412009321FACkd')
+          ('dsa312d9ik312zxcdsa0LKAMD90ijdALSKDmDsadk90312SDAP321dASD321dASDdsaLPKMASD0923190012sda450dASDJnkmdsa')
+          ('daSDLMASDAS13212czxmcxkiewq32167543asdawqwdasdason432423mkmdsadas3laskdmasldmaslkddskamd3213123ADMASD')
+          ('adASD321adA9ds0aDDSAKJN093213DASKLNDKMOIIHASOdnOAsd3212343290ASDAS3213dsa0001234555600dsadsaASDOnWZXI')
+           
+           SELECT * FROM dados_oficina
+           SELECT * FROM oficina
+           SELECT * FROM funcionarios
+           SELECT * FROM clientes
+           SELECT * FROM estoque_pecas
+  			
