@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="familiaArrays()">Clique aqui</button>
+    <script>
+        function familiaArrays() {
+            var domingos = []               //Criando um array chamado domingos
+            domingos.push("Thiago")      //Adicionando Thiago no array
+            domingos.push("Rosilda")     //Adicionando Rosilda no array
+            domingos.push("Tony")        //Adicionando Tony no array
+            domingos.push("Gustavo")     //Adicionando Gustavo no array
+            domingos.push("Guilherm")    //Adicioonando Guilherm no array
+            alert(domingos)
+            domingos[4] = "Guilherme"    //Alterando 'Guilherm'
+            alert(domingos)
+            var posicao = domingos.IndexOF("Guilherme")  //Retornando Guilherme
+            domingos.splice(4, 1)  //Excluindo 'Guilherme' 
+            alert(domingos)
+        }
+    </script>
+</body>
+</html>
