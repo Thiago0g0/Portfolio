@@ -1,0 +1,11 @@
+const varGlobal = "Sou uma varialvel global"
+
+function mostrarcode() {
+    let varLocal = "sou uma variavel local"
+
+    console.log(varGlobal)
+    console.log(varLocal)
+}
+
+mostrarcode()
+
