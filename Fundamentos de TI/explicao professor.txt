@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html long="pt-br">
+<head>
+    <meta charset="UTP-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta nome="viewport" content="Width=device-width",
+    initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/cor.css"
+    <title>HTML com JavaScript</title>
+</head>
+<body class="inicial">
+    <script src="./js/data.js"></script>
+    <p class="outra">Outra formatação</p>
+    <p class="outra">Mais um formatação</p>
+    <div id="fundo" >
+        <p class="outra"> teste da div</p>
+    </div>
+</body>
+</html>
